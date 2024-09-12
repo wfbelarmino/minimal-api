@@ -1,10 +1,11 @@
 using Microsoft.EntityFrameworkCore;
-using MinimalApi.Infraestrutura.Db;
 using MinimalApi.DTOs;
 using Microsoft.Extensions.Options;
+using minimal_api.Infraestrutura.Db;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+
 
 builder.Services.AddDbContext<DbContexto>(Options => {
     object value = Options.UseMySql(
