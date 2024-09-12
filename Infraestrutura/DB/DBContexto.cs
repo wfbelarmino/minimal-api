@@ -1,6 +1,12 @@
-namespace MinimalApi.Infraestrutura.Db;
-public class DbContexto
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace minimal_api.Infraestrutura.Db
 {
-
+    public class DbContexto
+    {
+        
+    }
 }
-
